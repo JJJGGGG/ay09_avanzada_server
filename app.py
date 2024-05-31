@@ -13,6 +13,11 @@ app = Flask(__name__)
 def hello_world():
     return {"texto": "Hello, World!"}
 
+@app.route("/delete_db", methods=["GET"])
+def delete_db():
+    with open("data/ayudantes.json", "w") as info:
+        json.dump(Datos, info, indent=4)
+    return {"ok": True}
 
 @app.route("/ayudantes", methods=["GET", "POST"])
 def ayudantes():
