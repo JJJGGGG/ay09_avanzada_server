@@ -1,8 +1,15 @@
 from flask import Flask, request
 import json
 
-Datos = [{"id": 1, "nombre": "Julio", "apellido": "Huerta", "n_alumno": "20544407", "estado": "pendiente", "motivacion" : "ser admin"},
-         {"id": 2, "nombre": "Julian", "apellido": "Garcìa", "n_alumno": "20643309", "estado": "pendiente", "motivacion" : "ser master"}]
+Datos = [
+    {"apellido":"Huerta","estado":"rechazado","id":1,"motivacion":"ser admin","n_alumno":"12233445","nombre":"Julio"},
+    {"apellido":"García","estado":"aceptado","id":2,"motivacion":"ser master","n_alumno":"22332443","nombre":"Julian"},
+    {"apellido":"Campos","estado":"pendiente","id":3,"motivacion":"ffdfdfdfdfdfdfdf","n_alumno":"10002993","nombre":"Clemente"},
+    {"apellido":"Toledo","estado":"aceptado","id":4,"motivacion":"","n_alumno":"10993856","nombre":"Diego"},
+    {"apellido":"Olguín","estado":"aceptado","id":5,"motivacion":"","n_alumno":"8849300J","nombre":"Carlos"},
+    {"apellido":"Miranda","estado":"aceptado","id":6,"motivacion":"","n_alumno":"94883928","nombre":"Catalina"},
+    {"apellido":"Perez-Cotapos","estado":"pendiente","id":7,"motivacion":"","n_alumno":"13233452","nombre":"Cristobal"}
+]
 
 ID_COUNTER = 3
 
