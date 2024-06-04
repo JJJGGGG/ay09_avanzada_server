@@ -16,40 +16,40 @@
         "motivacion": "ser master"
     },
     {
-        "nombre": "asdf",
-        "apellido": "fdsa",
+        "nombre": "Clemente",
+        "apellido": "Campos",
         "n_alumno": "1111",
         "id": 3,
         "estado": "pendiente",
         "motivacion": "ffdfdfdfdfdfdfdf"
     },
     {
-        "nombre": "asddddd",
-        "apellido": "ddddd",
+        "nombre": "Diego",
+        "apellido": "Toledo",
         "n_alumno": "111221",
         "id": 4,
         "estado": "aceptado",
         "motivacion": ""
     },
     {
-        "nombre": "gggg",
-        "apellido": "gggg",
+        "nombre": "Carlos",
+        "apellido": "Olgu\u00edn",
         "n_alumno": "gggg",
         "id": 5,
         "estado": "aceptado",
         "motivacion": ""
     },
     {
-        "nombre": "2",
-        "apellido": "2",
+        "nombre": "Catalina",
+        "apellido": "Miranda",
         "n_alumno": "2",
         "id": 6,
         "estado": "aceptado",
         "motivacion": ""
     },
     {
-        "nombre": "a",
-        "apellido": "a",
+        "nombre": "Cristobal",
+        "apellido": "Perez-Cotapos",
         "n_alumno": "18638279",
         "id": 7,
         "estado": "pendiente",
